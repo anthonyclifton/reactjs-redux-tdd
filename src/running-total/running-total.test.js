@@ -13,4 +13,9 @@ describe("Running Total", () => {
         const { getByTestId } = runningTotal;
         expect(getByTestId('header')).toBeDefined();
     });
+
+    test("should render an input box", () => {
+        const { getByTestId } = runningTotal;
+        expect(getByTestId('input')).toBeDefined();
+    });
 });
