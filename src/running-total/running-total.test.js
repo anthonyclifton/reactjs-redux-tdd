@@ -23,4 +23,9 @@ describe("Running Total", () => {
         const { getByTestId } = runningTotal;
         expect(getByTestId('total')).toBeDefined();
     });
+
+    test("should render a list of previous inputs", () => {
+        const { getByTestId } = runningTotal;
+        expect(getByTestId('previousInputs')).toBeDefined();
+    });
 });

@@ -13,6 +13,7 @@ const RunningTotal = () => {
                 />
             </div>
             <h2 data-testid="total">{"Total: 0"}</h2>
+            <div data-testid="previousInputs">0</div>
         </div>
 )
 };
