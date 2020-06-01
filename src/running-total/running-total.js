@@ -11,6 +11,7 @@ const RunningTotal = () => {
                     data-testid="input"
                     type="text"
                 />
+                <button data-testid="add" onClick={() => {}}>{"Add"}</button>
             </div>
             <h2 data-testid="total">{"Total: 0"}</h2>
             <div data-testid="previousInputs">0</div>
