@@ -12,6 +12,7 @@ const RunningTotal = () => {
                     type="text"
                 />
             </div>
+            <h2 data-testid="total">{"Total: 0"}</h2>
         </div>
 )
 };

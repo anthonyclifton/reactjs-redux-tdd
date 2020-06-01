@@ -18,4 +18,9 @@ describe("Running Total", () => {
         const { getByTestId } = runningTotal;
         expect(getByTestId('input')).toBeDefined();
     });
+
+    test("should render a total amount so far", () => {
+        const { getByTestId } = runningTotal;
+        expect(getByTestId('total')).toBeDefined();
+    });
 });
