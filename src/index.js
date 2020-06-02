@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import RunningTotal from "./running-total/running-total";
+import RunningTotalProvider from "./running-total/running-total-provider";
 
 ReactDOM.render(
   <React.StrictMode>
-    <RunningTotal />
+    <RunningTotalProvider />
   </React.StrictMode>,
   document.getElementById('root')
 );

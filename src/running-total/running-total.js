@@ -8,13 +8,16 @@ const RunningTotal = () => {
             </h1>
             <div>
                 <input
+                    className="input"
                     data-testid="input"
                     type="text"
                 />
-                <button data-testid="add" onClick={() => {}}>{"Add"}</button>
+                <button className="add" data-testid="add" onClick={() => {}}>{"Add"}</button>
             </div>
-            <h2 data-testid="total">{"Total: 0"}</h2>
-            <div data-testid="previousInputs">0</div>
+            <h2 className="total" data-testid="total">{"Total: 0"}</h2>
+            <ul data-testid="previousInputs">
+                <li className="previousInput">0</li>
+            </ul>
         </div>
 )
 };
